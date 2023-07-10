@@ -128,6 +128,38 @@ background: rgba(71, 125, 17, 0.15);
     padding-left: 75px;
    padding-right: 75px;
    padding-top: 110px;
-   
-
 }
+
+/* Here is the optional section design part */
+.optional-sec{
+    margin-top: 128px;
+    margin-bottom: 128px;
+    margin-left: 280px;
+}
+.optional-sec-all-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+height: 320px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.optional-sec-description{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.optional-sec-pic1-pos{
+    padding-left: 100px;
+}
+.optional-sec-pic2-pos{
+    padding-left: 86px;
+}
+.optional-sec-pic3-pos{
+    padding-left: 43px;
+}
+
