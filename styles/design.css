@@ -258,22 +258,26 @@
     border: 0;
     padding: 11px 33px;
 }
+
 /* Instagram section */
-.instagram-sec-div1{
+.instagram-sec-div1 {
     margin-top: 85px;
 }
-.instagram-sec-div2{
+
+.instagram-sec-div2 {
     margin-bottom: 85px;
 }
-.instagram-sec-title{
+
+.instagram-sec-title {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
-margin-bottom: 0px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
-.instagram-sec-description{
+
+.instagram-sec-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -283,13 +287,70 @@ margin-bottom: 0px;
     margin-top: 13px;
     margin-bottom: 13px;
 }
-.instagram-sec-pic{
+
+.instagram-sec-pic {
     height: 270px;
 }
-#instagram-sec-pic1{
+
+#instagram-sec-pic1 {
     padding-left: 170px;
 }
-#instagram-sec-pic2,#instagram-sec-pic3,#instagram-sec-pic4{
+
+#instagram-sec-pic2,
+#instagram-sec-pic3,
+#instagram-sec-pic4 {
     padding-left: 15px;
 }
 
+/* Here is the latest deal section design */
+.latest-deal-sec {
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    height: 500px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+/* Here is the design of footer */
+.main-foot {
+    
+    text-align: center;
+    height: 340px;
+    background: #111010;
+}
+
+.foot-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+    margin-bottom: 0;
+}
+
+.foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.foot-description1 {
+    color: rgba(255, 255, 255, 0.40); 
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+
+}
