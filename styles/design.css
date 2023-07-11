@@ -1,7 +1,8 @@
 /* Here is the design of cover page */
 .main-header {
     background: rgba(229, 84, 115, 0.10);
-    height: 850px;
+    height: 600px;
+    /* width:1000px; */
 
 }
 
@@ -11,14 +12,14 @@
 }
 
 .main-header-div1 {
-    padding-left: 240px;
-    padding-top: 197px;
+    padding-left: 140px;
+    padding-top: 100px;
 }
 
 .main-header-title {
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 800;
     width: 708px;
     margin-bottom: 0;
@@ -31,8 +32,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header-button {
@@ -44,13 +45,20 @@
     background: #E55473;
     margin-top: 0px;
     border: 0;
-    padding: 20px 43px;
+    padding: 11px 33px;
 
 }
 
 .header-pic {
+    
+     height: 500px;
+     /* margin-right: 600px; */
+
+}
+.main-header-div2{
     padding-top: 50px;
-    padding-right: 240px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 /* Here is the design of featured flower section */
@@ -60,18 +68,18 @@
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 178px;
-    margin-bottom: 24px;
+    margin-top: 100px;
+    margin-bottom: 15px;
 
 }
-
 .featured-sec-description {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 line-height: 30px;
+margin-bottom: 10px;
 }
 .featured-sec-pic-info{
     color: #272727;
@@ -87,61 +95,65 @@ text-decoration-line: underline;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-top: 30px;
 }
 .featured-sec-pic-size{
-    width: 310px;
-height: 428px;
+    width: 250px;
+height: 300px;
 
 }
 .featured-sec-pic1-backg{
-    width: 464px;
-height: 538px;
+    width: 300px;
+height: 350px;
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 
 }
 .featured-sec-pic2-backg{
-    width: 464px;
-height: 538px;
+    width: 300px;
+height: 350px;
 border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 
 }
 .featured-sec-pic3-backg{
-    width: 464px;
-height: 538px;
+    width: 300px;
+height: 350px;
 border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 }
 #featured-sec-pic1-pos{
-  padding-left: 76px;
-   padding-right: 78px;
-   padding-top: 110px;
-}
-#featured-sec-pic2-pos{
-    padding-left: 80px;
-    padding-top: 80px;
-    padding-bottom: 60px;
-
-}
-#featured-sec-pic3-pos{
-    padding-left: 75px;
-   padding-right: 75px;
-   padding-top: 110px;
-}
-
+    padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 0;
+     padding-top: 50px;
+  }
+  #featured-sec-pic2-pos{
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  
+  }
+  #featured-sec-pic3-pos{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
 /* Here is the optional section design part */
 .optional-sec{
-    margin-top: 128px;
-    margin-bottom: 128px;
-    margin-left: 280px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 .optional-sec-all-pic{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1440px;
-height: 320px;
+    /* width: 1440px; */
+height: 230px;
 border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
 }
@@ -149,17 +161,23 @@ background: rgba(39, 39, 39, 0.05);
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 35px;
+    margin-top: 0;
 }
 .optional-sec-pic1-pos{
-    padding-left: 100px;
+    padding-left: 60px;
+    height: 70px;
+    margin-bottom: 8px;
+
 }
 .optional-sec-pic2-pos{
-    padding-left: 86px;
+    padding-left: 60px;
+    height: 70px;
+    margin-bottom: 8px;
 }
 .optional-sec-pic3-pos{
-    padding-left: 43px;
+    height: 70px;
+    margin-bottom: 8px;
 }
-
