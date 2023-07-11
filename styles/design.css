@@ -262,7 +262,9 @@
 .instagram-sec-div1{
     margin-top: 85px;
 }
-
+.instagram-sec-div2{
+    margin-bottom: 85px;
+}
 .instagram-sec-title{
     color: #272727;
 text-align: center;
@@ -281,7 +283,13 @@ margin-bottom: 0px;
     margin-top: 13px;
     margin-bottom: 13px;
 }
-.instagram-sec-pic1{
-    height: 300px;
-    padding-left: 150px;
+.instagram-sec-pic{
+    height: 270px;
 }
+#instagram-sec-pic1{
+    padding-left: 170px;
+}
+#instagram-sec-pic2,#instagram-sec-pic3,#instagram-sec-pic4{
+    padding-left: 15px;
+}
+
