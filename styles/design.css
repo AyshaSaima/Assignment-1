@@ -2,17 +2,17 @@
 .main-header {
     background: rgba(229, 84, 115, 0.10);
     height: 600px;
-    /* width:1000px; */
+
 
 }
 
 .main-header-container {
     display: flex;
-    gap: 97px;
+    /* gap: 0px; */
 }
 
 .main-header-div1 {
-    padding-left: 140px;
+    padding-left: 100px;
     padding-top: 100px;
 }
 
@@ -50,20 +50,16 @@
 }
 
 .header-pic {
-
-    height: 500px;
-    /* margin-right: 600px; */
-
+    height: 560px;
 }
 
 .main-header-div2 {
-    padding-top: 50px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding-top: 40px;
+
 }
 
 /* Here is the design of featured flower section */
-.featured-sec-title {
+.featured-sec-title,.bonus-sec-head {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -74,7 +70,7 @@
 
 }
 
-.featured-sec-description {
+.featured-sec-description,.bonus-sec-description {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -321,7 +317,7 @@
 
 /* Here is the design of footer */
 .main-foot {
-    
+
     text-align: center;
     height: 340px;
     background: #111010;
@@ -348,9 +344,25 @@
 }
 
 .foot-description1 {
-    color: rgba(255, 255, 255, 0.40); 
+    color: rgba(255, 255, 255, 0.40);
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
 
 }
+
+/* bonus section design */
+.bonus-sec{
+    background-color: rgb(240, 240, 196);
+}
+.bonus-sec-pic-size{
+    height: 200px;
+    width: 170px;
+
+}
+.bonus-sec-head{
+    padding-top: 50px;
+    text-decoration: underline solid black;
+
+}
+
